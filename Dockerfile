@@ -4,7 +4,7 @@ COPY ./pom.xml ./src ./
 
 RUN mvn install
 
-FROM openjdk:8u171-jre-alpine
+FROM openjdk:8u171-jre-alpine@sha256:e3168174d367db9928bb70e33b4750457092e61815d577e368f53efb29fea48b
 
 WORKDIR /app
 
